@@ -8,12 +8,12 @@
   },
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "heroku-prebuild": "rm -rf node_modules",
-    "build": "npm run clean && npm run build-babel",
-    "start": "npm run build && node ./build/index.js",
-    "start": "node ./src/js/index.js"
-  },
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "server": "nodemon server.js --exec babel-node", //for spinning up dev server which updates using Nodemon
+  "heroku-postbuild": "npm install", //called automatically when application is build on Heroku server
+  "start": "babel-node server.js" //for running on the Heroku server - called in the Procfile
+},
   "author": "amanda winkler",
   "license": "ISC",
   "devDependencies": {
