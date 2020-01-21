@@ -11,7 +11,7 @@
   "scripts": {
     "heroku-prebuild": "rm -rf node_modules",
     "build": "npm run clean && npm run build-babel",
-    "start": "npm run build && node ./build/index.js"
+    "start": "npm run build && node ./build/index.js",
     "start": "babel-node ./src/js/index.js"
   },
   "author": "amanda winkler",
