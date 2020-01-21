@@ -1,0 +1,6 @@
+{
+  "name": "Start on Heroku: Node.js : my first deployment onto heroku",
+  "description": "A food app using an api to list ingredients needed for recipe",
+  "repository": "https://github.com/WinkWink/deploy-to-heroku.git",
+  "keywords": ["node", "express", "heroku"],
+}
