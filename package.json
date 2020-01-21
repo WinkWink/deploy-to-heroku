@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "heroku-prebuild": "rm -rf node_modules",
-    "start": "node NODE_ENV=production ./src/js/index.js"
+    "start": "node ./src/js/index.js"
   },
   "author": "amanda winkler",
   "license": "ISC",
