@@ -28,5 +28,5 @@
     "repository": {
     "type": "git",
     "url": "https://github.com/WinkWink/deploy-to-heroku.git"
-  },
+  }
 }
