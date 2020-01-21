@@ -4,7 +4,7 @@
   "description": "forkify project",
   "engines": {
     "node": "10.16.0",
-    "npm":"6.9.0"
+    "npm": "6.9.0"
   },
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "axios": "^0.18.0",
     "uniqid": "^4.1.1"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/WinkWink/deploy-to-heroku.git"
   }
