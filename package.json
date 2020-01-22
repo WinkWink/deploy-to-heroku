@@ -8,12 +8,11 @@
   },
   "type": "module",
   "main": "index.js",
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "server": "nodemon server.js --exec babel-node",
-  "heroku-postbuild": "npm install",
-  "start": "node ./src/js/index.js"
-},
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
   "author": "amanda winkler",
   "license": "ISC",
   "devDependencies": {
