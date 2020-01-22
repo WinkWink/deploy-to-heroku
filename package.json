@@ -9,7 +9,6 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "heroku config:set NPM_CONFIG_PRODUCTION=false",
     "heroku-prebuild": "npm install --dev",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
