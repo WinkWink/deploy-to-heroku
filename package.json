@@ -12,7 +12,7 @@
     "heroku-prebuild": "npm install --dev",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --port $PORT --host 0.0.0.0 "
   },
   "author": "amanda winkler",
   "license": "ISC",
