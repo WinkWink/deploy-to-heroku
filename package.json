@@ -12,7 +12,8 @@
     "heroku-prebuild": "npm install --dev",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --port $PORT --host 0.0.0.0"
+    "start": "webpack-dev-server --port $PORT --host 0.0.0.0",
+    "heroku-postbuild": "npm run start"
   },
   "author": "amanda winkler",
   "license": "ISC",
