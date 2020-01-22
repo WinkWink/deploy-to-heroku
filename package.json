@@ -16,7 +16,9 @@
   },
   "author": "amanda winkler",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "axios": "^0.18.0",
+    "uniqid": "^4.1.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
@@ -28,10 +30,6 @@
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.6.0",
     "nodemon": "1.11.0"
-  },
-  "dependencies": {
-    "axios": "^0.18.0",
-    "uniqid": "^4.1.1"
   },
   "repository": {
     "type": "git",
